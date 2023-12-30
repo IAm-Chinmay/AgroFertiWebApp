@@ -1,0 +1,58 @@
+.fertiCardMain {
+  width: 20rem;
+  height: 30rem;
+  background-color: chartreuse;
+  margin-left: 20rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+
+.fertiCardMain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fertiDesc {
+  position: absolute;
+  top: 31rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: brown; */
+  width: 100%;
+  text-align: center;
+}
+
+.fertiDesc h3 {
+  font-size: 2.5rem;
+  color: rgb(3, 3, 3);
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000,
+    -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+.fertiDesc p {
+  margin-top: 2rem;
+}
+
+.carasoulStyle {
+  .rec.rec-arrow {
+    border-radius: 0;
+    background-color: green;
+  }
+  /* round buttons on hover */
+  .rec.rec-arrow:hover {
+    border-radius: 50%;
+    background-color: green;
+  }
+  /* hide disabled buttons */
+  .rec.rec-arrow:disabled {
+    visibility: hidden;
+  }
+  /* disable default outline on focused items */
+  /* add custom outline on focused items */
+  .rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+    background-color: green;
+  }
+}

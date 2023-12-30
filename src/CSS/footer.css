@@ -1,0 +1,137 @@
+.footerMain {
+  width: 100%;
+  /* background-color: rgb(213, 129, 27); */
+  position: relative;
+  height: 35rem;
+  border-top: 2px solid rgb(239, 239, 255);
+}
+
+.footerMain .grass {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  filter: brightness(50%);
+}
+
+.footerMain .footerLogo {
+  position: absolute;
+  /* z-index: 2; */
+  left: 4rem;
+}
+
+.footerSec {
+  display: flex;
+  width: 70%;
+  position: absolute;
+  right: 0;
+  /* justify-content: space-around; */
+}
+
+.footerSec .footerLinks {
+  margin-top: 5rem;
+}
+
+.footerSec .footerLinks h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: rgb(29, 29, 29);
+  width: 14.5rem;
+}
+
+.footerSec .footerLinks h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+}
+
+.footerSec .footerLinks ul {
+  list-style: disc;
+}
+
+.footerAddress {
+  margin-top: 5rem;
+  margin-left: 16rem;
+}
+
+.footerAddress h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: rgb(29, 29, 29);
+}
+
+.footerAddress span {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.footerAddress h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+/*Mob */
+
+.footerMobMain {
+  width: 100%;
+  /* background-color: rgb(213, 129, 27); */
+  position: relative;
+  height: 35rem;
+  border-top: 2px solid rgb(239, 239, 255);
+}
+
+.footerMobMain .mobgrass {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  filter: brightness(50%);
+}
+
+.footerMobMain .footerMobLogo {
+  position: absolute;
+  /* z-index: 2; */
+  left: 0rem;
+  width: 50%;
+}
+
+.footerMobSec {
+  /* display: flex;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  justify-content: space-around; */
+  width: 50%;
+  position: absolute;
+  right: 10%;
+}
+
+.footerMobAddress {
+  margin-top: 6rem;
+  margin-left: 20%;
+}
+
+.footerMobAddress h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(29, 29, 29);
+}
+
+.footerMobAddress span {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.footerMobAddress h3 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  margin-left: 1rem;
+}

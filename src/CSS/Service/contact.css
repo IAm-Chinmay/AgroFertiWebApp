@@ -1,0 +1,62 @@
+.contactMain {
+  margin-top: 5rem;
+}
+
+.contactMain h1 {
+  font-size: 4rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.contactMain p {
+  width: 40%;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.contactForm {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.contactForm h3 {
+  font-size: 1.5rem;
+  color: rgb(71, 71, 71);
+}
+.contactForm {
+  width: 50%;
+  margin-left: 9rem;
+}
+
+.contactForm .contactInput {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 2rem 0;
+}
+
+.contactForm input {
+  width: 30rem;
+  height: 2.2rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.contactForm input:focus {
+  border: 1px solid;
+  border-color: green;
+}
+
+.contactForm button {
+  all: unset;
+  width: 6rem;
+  height: 3rem;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: white;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap");
+
+.navMain {
+  /* background-color: rgb(132, 120, 120); */
+  height: 5.5rem;
+  /* width: 100px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem; */
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 33.5rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
+  color: rgb(81, 79, 79);
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navLinks h4:hover {
+  /* background-color: rgb(40, 89, 40); */
+  border-bottom: 5px solid #206930;
+  /* color: white; */
+  /* height: 2.3rem;
+  width: 6rem; */
+  align-items: center;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  /* font-weight: 600; */
+}
+
+.navLinks h4:nth-child(3):hover {
+  width: 9rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 40rem;
+}
+
+.logo h3 {
+  font-size: 2rem;
+  color: rgb(32, 105, 48);
+  font-weight: 800;
+}
+
+/*Mobile*/
+
+.navMobMain {
+  position: fixed;
+  z-index: 2;
+  background: rgb(244, 248, 253);
+  background: linear-gradient(
+    0deg,
+    rgba(244, 248, 253, 1) 0%,
+    rgba(224, 238, 255, 1) 51%,
+    rgba(248, 251, 255, 1) 100%
+  );
+  width: 100%;
+  bottom: 0;
+  top: 91%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navMobLink {
+  /* background-color: #206930; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

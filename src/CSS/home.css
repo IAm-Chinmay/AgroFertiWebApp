@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.posterImg {
+  width: 100%;
+  filter: blur(1px);
+  -webkit-filter: blur(100%);
+}
+
+.mainSection {
+  margin-top: 5rem;
+}
+
+.upperSection {
+  position: relative;
+  top: 0%;
+}
+
+.imgText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 37%;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  font-size: 5rem;
+  font-weight: 800;
+  width: 60rem;
+}
+
+.coverLogo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.aboutImg {
+  width: 50%;
+  margin-left: 12rem;
+  padding-top: 3rem;
+}
+
+.aboutImg img {
+  text-align: center;
+}
+
+.aboutInfo {
+  width: 60%;
+  padding-top: 10rem;
+  padding-left: 3rem;
+}
+
+.aboutInfo h1 {
+  margin-top: 2rem;
+  width: 45rem;
+  /* font-weight: 500; */
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: rgb(44, 44, 44);
+}
+
+.aboutInfo p {
+  margin-top: 1rem;
+  width: 38rem;
+  font-weight: 600;
+  color: rgb(83, 83, 83);
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+
+.aboutSec {
+  display: flex;
+  height: 40rem;
+}
+
+.secMain {
+  display: flex;
+}
+
+.secImg {
+  width: 50%;
+  padding-left: 10em;
+  padding-top: 9rem;
+}
+
+.secImg img {
+  border-radius: 10px;
+}
+
+.secDesc {
+  width: 50%;
+  padding-top: 15.5rem;
+  padding-left: 5rem;
+}
+
+.secDesc h2 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.secDesc p {
+  width: 30rem;
+  padding-top: 2rem;
+  padding-left: 0rem;
+  font-size: 1.8rem;
+  font-family: "Inter", sans-serif;
+}
+
+.WhyMain {
+  margin-top: 5rem;
+}
+
+.secHead {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.secHead h1 {
+  font-size: 5rem;
+  margin-bottom: 1.2rem;
+}
+
+.secHead p {
+  width: 80rem;
+  font-size: 1.6rem;
+  color: rgb(95, 97, 98);
+}
+
+.feedbackMain {
+  /* margin-top: 5rem; */
+}
+
+.feedbackMain h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.feedbackCardMain {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  justify-content: space-around;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+.feedbackCards {
+  width: 30rem;
+  height: 20rem;
+  border: 0.5px solid #62626274;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.feedbackCards p {
+  font-size: 1.5rem;
+  width: 25rem;
+  margin-top: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(100, 100, 100);
+}
+
+.feedbackCards h5 {
+  font-size: 1.3rem;
+  margin-top: 1.2rem;
+  /* margin-right: 10rem; */
+  color: #206930;
+}
+
+.feedbackName {
+  width: 100%;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.MissionMain {
+  position: relative;
+  text-align: center;
+}
+
+.MissionMain img {
+  filter: brightness(50%);
+  width: 100%;
+  height: 50rem;
+}
+
+.MissionMain h1 {
+  position: absolute;
+  color: white;
+  top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 5rem;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.MissionMain p {
+  position: absolute;
+  top: 20rem;
+  color: white;
+  font-size: 2.3rem;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Mobile*/
+
+.upperMobSection {
+  position: relative;
+  top: 0%;
+}
+
+.posterMobImg {
+  /* width: 90%; */
+  filter: blur(1px);
+  -webkit-filter: blur(100%);
+}
+
+.imgMobText {
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  top: 25%;
+  left: 5%;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  font-size: 2.5rem;
+  font-weight: 800;
+  width: 28rem;
+}
+
+.aboutMobSec {
+  /* background-color: #000000; */
+  /* height: 20rem; */
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMobImg {
+  padding-top: 5rem;
+}
+
+.aboutMobInfo {
+  /* background-color: #206930; */
+  width: 90%;
+}
+
+.aboutMobInfo h1 {
+  font-size: 1.5rem;
+  margin-top: 4%;
+  /* font-weight: 500; */
+  font-family: "Poppins", sans-serif;
+  color: rgb(44, 44, 44);
+}
+
+.aboutMobInfo p {
+  margin-top: 3%;
+  font-weight: 600;
+  color: rgb(83, 83, 83);
+  font-family: "Inter", sans-serif;
+}
+
+.secMobHead {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.secMobHead h1 {
+  font-size: 3rem;
+  margin-bottom: 3%;
+  margin-top: 8%;
+}
+
+.secMobHead p {
+  width: 90%;
+  font-size: 1rem;
+  color: rgb(95, 97, 98);
+  margin-bottom: 2%;
+}
+
+.secMobMain {
+  display: flex;
+}
+
+.secMobImg {
+  padding-left: 2%;
+  padding-top: 20%;
+}
+
+.secMobImg img {
+  border-radius: 10px;
+}
+
+.secMobDesc {
+  width: 50%;
+  padding-top: 20%;
+  padding-left: 2%;
+}
+
+.secMobDesc h2 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.secMobDesc p {
+  padding-top: 2%;
+  padding-left: 0rem;
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+}
+
+.feedbackMobMain {
+  /* margin-top: 5rem; */
+}
+
+.feedbackMobMain h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.feedbackMobCardMain {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  justify-content: space-around;
+  height: 18rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+.feedbackMobCards {
+  width: 80%;
+  /* height: 70%; */
+  /* border: 0.5px solid #62626274; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.feedbackMobCards p {
+  font-size: 1rem;
+  width: 20rem;
+  margin-top: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(100, 100, 100);
+}
+
+.feedbackMobCards h5 {
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  /* margin-right: 10rem; */
+  color: #206930;
+}
+
+.feedbackMobName {
+  /* width: 100%; */
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.MissionMobMain {
+  position: relative;
+  text-align: center;
+}
+
+.MissionMobMain img {
+  filter: brightness(50%);
+  width: 100%;
+  height: 20rem;
+}
+
+.MissionMobMain h1 {
+  position: absolute;
+  color: white;
+  top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.MissionMobMain p {
+  position: absolute;
+  top: 8rem;
+  color: white;
+  font-size: 1rem;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family: "Poppins", sans-serif;
+}
