@@ -93,7 +93,7 @@ const WhyUs = () => {
             }}
             className="secMobDesc"
           >
-            <h2>Discounted Prices</h2>
+            <h2>Reasonable Prices</h2>
             <p>
               Our products are available at discounted prices, ensuring that you
               get the best value for your investment.
