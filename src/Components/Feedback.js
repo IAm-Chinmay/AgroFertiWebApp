@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import "../CSS/home.css";
-import { AnimatePresence, motion, useScroll } from "framer-motion";
+import {  motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 
 const Feedback = () => {
@@ -37,7 +37,7 @@ const Feedback = () => {
       setText(txt[index].para);
       setName(txt[index].name);
     }, 10000);
-  }, [text]);
+  }, [txt]);
 
   return (
     <>

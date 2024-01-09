@@ -60,3 +60,59 @@
   margin-top: 2rem;
   cursor: pointer;
 }
+
+.contactMobMain{
+  margin-top: 30%;
+}
+
+.contactMobMain h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 2%;
+}
+
+.contactMobMain p{
+  font-size: 1.2rem;
+  /* background-color: aquamarine; */
+  width: 90%;
+  margin-left: 5%;
+}
+
+.contactMobForm{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5%;
+
+}
+
+.contactMobInput{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8%;
+}
+
+.contactMobInput h3{
+  font-size: 1.5rem;
+}
+
+.contactMobInput input{
+  margin-left: 4rem;
+}
+
+.contactMobForm button {
+  all: unset;
+  width: 6rem;
+  height: 3rem;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: white;
+  margin-left: 20%;
+  margin-top: 2rem;
+  cursor: pointer;
+}

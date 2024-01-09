@@ -5,6 +5,7 @@ import ServicePage from "./Components/Services/ServicePage";
 import ContactUs from "./Components/Contact/ContactUs";
 import Footer from "./Components/Footer";
 import React, { useEffect } from "react";
+import ScrollToTop from "./Util/ScrollToTop";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
@@ -21,6 +22,7 @@ function App() {
   }, []);
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <div className="App">
         <header className="App-header">
           <Nav />

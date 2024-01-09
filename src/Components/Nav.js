@@ -25,7 +25,7 @@ const Nav = () => {
         <div className="navMain">
           <div className="logo">
             <img alt="logo" height={"80px"} width={"80px"} src={logo} />
-            <h4 style={{ color: "rgb(32, 105, 48)" }}>
+            <h4 style={{ color: "rgb(32, 105, 48)",fontSize:'1.4rem' }}>
               Shri Datta Krushi Seva Kendra
             </h4>
           </div>

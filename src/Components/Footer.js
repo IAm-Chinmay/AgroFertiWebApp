@@ -26,13 +26,13 @@ const Footer = () => {
       <Mobile>
         <div className="footerMobMain">
           <img className="mobgrass" src={grass} alt="grass" />
-          <img className="footerMobLogo" src={logo} alt="grass" />
+         
           <div className="footerMobSec">
             <div className="footerMobAddress">
               <h1> Address </h1>
               <span>
                 <CiLocationOn
-                  style={{ fontSize: "1.5rem", marginTop: "2rem" }}
+                  style={{ fontSize: "2.5rem", marginTop: "2rem" }}
                 />
                 <h3>
                   Shri Datta Krushi Seva Kendra, Kalaj, Phaltan,Satara,415528
@@ -48,6 +48,7 @@ const Footer = () => {
               </span>
             </div>
           </div>
+          <img className="footerMobLogo" src={logo} alt="grass" />
         </div>
       </Mobile>
       <Desktop>

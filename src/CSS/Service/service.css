@@ -144,7 +144,23 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  /* margin-top: 1rem; */
+  /* margin-top: rem; */
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
+}
+
+.refMain .refMobSec {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.refMain h1{
+  margin-top: 1rem;
+}
+
+.refMobSec{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: rgb(29, 95, 18);
 }

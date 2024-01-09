@@ -77,6 +77,8 @@ const ServicePage = () => {
               </div>
             </a>
           </div>
+          <div id="sec">{show && click ? <Fertilizer /> : null}</div>
+          <div id="sec">{show && !click ? <Pesticides /> : null}</div>
           <div>
             <OurRef />
           </div>
